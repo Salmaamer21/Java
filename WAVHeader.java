@@ -179,13 +179,7 @@ public class WAVHeader {
 
 
 
-    /**
-     * This constructor performs some relevant calculations
-     * that Michael Andrews does not wish for every PIC 20A student
-     * to have to think about carefully. Michael is happy to talk
-     * about these calculations at length. Audio Processing and
-     * Digital Signal Processing are some of his favorite things!
-     * 
+    /** 
      * @param audio_fmt             1 for integer samples, 3 for floating point samples
      * @param channels              1 for mono, 2 for stereo
      * @param sample_rate_per_chan  often 44_100 or 48_000
